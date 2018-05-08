@@ -106,3 +106,11 @@ _should_ always return true. Logcat should show something like
 In Android Studio, setup a simple test config,
 ![alt text](img/test_config.png)
 and run it.
+
+## What TFLite version is this?
+
+As specified in `app/build.gradle`, we are using
+
+```
+implementation('org.tensorflow:tensorflow-lite:0.1.7@aar')
+```
